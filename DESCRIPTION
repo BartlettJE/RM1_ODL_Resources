@@ -1,0 +1,38 @@
+Package: template
+Title: MSc Research Methods 1 ODL Course Information
+Version: 0.1
+Authors@R:
+  c(
+    person(
+        given = "James", 
+        family = "Bartlett", 
+        role = c("aut", "cre"), 
+        email = "james.bartlett@glasgow.ac.uk", 
+        comment = c(ORCID = "0000-0002-4191-5245")
+    ),
+        person(
+        given = "Phil", 
+        family = "McAleer", 
+        role = c("aut", "cre"), 
+        email = "phil.mcaleer@glasgow.ac.uk")
+    ),
+    person(
+        given = "Helena", 
+        family = "Paterson", 
+        role = c("aut", "cre"), 
+        email = "helena.paterson@glasgow.ac.uk")
+    )
+  )
+Description: This book outlines key course information such as the group work agreement and research skills for the MSc Research Methods 1 ODL course.
+License: CC BY 4.0 + LICENSE
+Encoding: UTF-8
+LazyData: true
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.1.1
+Imports: 
+    webexercises,
+    glossary (>= 0.0.0.9001)
+Remotes: 
+    psyteachr/glossary
+Depends: 
+    tidyverse

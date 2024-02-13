@@ -1,0 +1,36 @@
+```{r, echo=FALSE}
+source(file = "include/deadlines.R")
+```
+
+# Week 5
+
+## Lab overview
+
+This week, we are moving on to the second major section of a report. Keeping the hourglass shape of a report in mind, the method section forms the first narrow part focusing on your study. The method outlines how you designed your study and follows a standardised series of sub-sections to outline who your participants were, what materials you used, how participants completed your study, and how you approached the data analysis. 
+
+In the lab, we will use an activity to demonstrate principles of reproducibility and replicability. After breaking down each sub-section of the method, you will discuss in your groups all the areas containing researcher degrees of freedom to decide and justify. 
+
+## Tasks to complete prior to your lab
+
+1. Read the [Structure of the Method section](#method-section) research skills chapter. 
+
+2. Nominate someone in your group to post your research question and hypothesis (if applicable) to the [Padlet board on research questions and hypotheses](https://padlet.com/jebartlett94/research-questions-and-hypotheses-722u3bwgu86vcpe8). For each group, create a new post including your group as the title, then outline your research question and hypothesis.
+
+3. You will need a pen/pencil and a piece of paper to bring to the lab. 
+
+## Tasks to complete after attending your lab
+
+1. If you have not already allocated tasks, look back at the [stage one task sharing advice](#stageone-planning). Now you know about the method section, think about what details you know about, what you do not know yet, and how you will find out what you do not know. Identify all the researcher degrees of freedom in your method and think about which decisions you can justify. 
+
+2. Complete the [MSLQ study](https://exp.psy.gla.ac.uk/project?SRLproject&guest) as a participant. This will both help with learning the materials and procedure you will be reporting, and add more data to the pool to analyse. 
+
+3. In your group, write a bullet-point plan of the introduction and start working on your draft, if you have not started already. 
+
+## Next week 
+
+Next week, you get a little break from content for reading week. This is a period of consolidation to give you time to work on concepts you are less comfortable with, and catch up on content you might have missed in the first five weeks. 
+
+You have a week without labs and lectures, so you should have more time to work with your group. We have designed the course to give you all the core concepts you need for the stage one group report prior to reading week. You will still need to engage in your own independent learning and look for specific evidence to support your decisions, but we have covered the key concepts behind the introduction, academic writing, and methods. 
+
+After reading week in week 7, the lab will focus on results sections to communicate the results of a correlation. 
+
