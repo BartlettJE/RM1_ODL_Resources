@@ -6,9 +6,9 @@ source(file = "include/deadlines.R")
 
 ## General information
 
-- We use the group work agreement to outline how you and your group will work and communicate with each other, and ensure you are engaging in the group work process for the [stage one group report](#stage1-AIS). Groups typically experience problems when communication and task responsibilities are built on unspoken assumptions. As you probably do not know the people in your group when we make the allocations, we start the project by facilitating a discussion with you and your group so you can openly outline how you will communicate, [respect diversity](#group-work-advice), and [split tasks](#stageone-planning). 
+- We use the group work agreement to outline how you and your group will work and communicate with each other, and ensure you are engaging in the group work process for the pre-registration. Groups typically experience problems when communication and task responsibilities are built on unspoken assumptions. You might not know everyone in your group when we make the allocations, so we start the project by facilitating a discussion with you and your group so you can openly outline how you will communicate, [respect diversity](#group-work-advice), and [split tasks](#prereg-planning). 
 
-- This is a formative task and is **not** part of the summative assessment for the course, but everyone must complete the task. We use the group work agreement as a way of identifying engagement and potential problems as early as possible. The course or programme leads will contact students who **do not** submit their group work agreement. 
+- This is a formative task and is **not** part of the summative assessment for the course, but everyone must complete the task. We use the group work agreement as a way of identifying engagement and potential problems as early as possible. The course or programme leads will contact students who **do not** submit their group work agreement. At first, we will help mediate any problems to facilitate the group assignment. If there are further problems, then students may be reallocated to an individual submission. 
 
 - The deadline is **`r groupagreement_due`**.
 
@@ -18,7 +18,7 @@ source(file = "include/deadlines.R")
 
 ## Group agreement items
 
-The group work agreement template (available for download in the RM1 Moodle Group Allocations, Resources, and Agreement Submission tab) contains five points that we have set, but you may add any additional points that the group agrees.
+The group work agreement template (available for download in the RM1 ODL Moodle Group Allocations, Resources, and Agreement Submission tab) contains five points that we have set, but you may add any additional points that the group agrees.
 
 The mandatory points are: 
 
@@ -54,7 +54,7 @@ In addition, there may be other elements of group work that you and your group w
 
 ### Guidelines 
 
-Below are some guidelines to organise and manage your group project for the stage one report. You are welcome to adapt some of these guidelines to suit your group and the nature of the project. However, in the event we need to mediate difficulties, this will involve you providing evidence as record/evidence of collaboration (or lack thereof). Please be mindful of this when conducting your project.
+Below are some guidelines to organise and manage your group project for the pre-registration. You are welcome to adapt some of these guidelines to suit your group and the nature of the project. However, in the event we need to mediate difficulties, this will involve you providing evidence of collaboration (or lack thereof). Please be mindful of this when conducting your project.
 
 **Set up your group Teams chat/channel and a Planner for your group**
 
@@ -90,13 +90,13 @@ Below are some guidelines to organise and manage your group project for the stag
 
 **Determine strengths and assign roles**
 
-- DO: Consult the [Stage one group work planning advice section above](#stageone-planning) to identify the strengths/preferences of your team.
+- DO: Consult the [pre-registration planning advice section below](#prereg-planning) to identify the strengths/preferences of your team.
 
 **Assign tasks/milestones to roles** 
 
 - DO: Attach names and dates to tasks and assign milestones.
 
-- DO: Reassign tasks/adjust deadlines if you need as the project progresses.
+- DO: Reassign tasks/adjust deadlines if you need to as the project progresses.
 
 - DON’T: Assign time-sensitive roles that might clash with someone’s known upcoming commitments.
 
@@ -122,9 +122,9 @@ Below are some guidelines to organise and manage your group project for the stag
 
 ### Points about inclusivity
 
-**Language**: Many/most students in this programme are studying in their second, third, or even fourth language. Consider the challenges you might experience if you were studying beyond your first language and be mindful of making implicit judgements about someone’s writing or communication.
+**Language**: Many students in this programme are studying in their second, third, or even fourth language. Consider the challenges you might experience if you were studying beyond your first language and be mindful of making implicit judgements about someone’s writing or communication.
 
-**Timing/working patterns**: Be mindful that everyone’s life balance and commitments are different. Some people prefer studying during traditional working hours, some in the evenings, and others on weekends. Communicate your preferences openly and as a group be as flexible and accommodating as you can. Can the times/days of meetings be flexible if this helps everyone contribute and feel engaged?
+**Timing/working patterns**: Be mindful that everyone’s life balance and commitments are different. Some people prefer studying during traditional working hours, some in the evenings, and others on weekends. Communicate your preferences openly and as a group be as flexible and accommodating as you can. Can the times/days of meetings be flexible if this helps everyone contribute and feel engaged? As an ODL programme, you may not be able to meet synchronously, so discuss how you will complete your group work and share your progress for shared tasks.
 
 **Technology**: The technology/platforms we recommend might not be your favourites, but we recommend them for a reason. These are things we can directly support, and they are the things that we make sure all students in different countries can access. Using some apps/tools can explicitly exclude some members that want to engage and contribute.
 
@@ -138,9 +138,9 @@ Below are some guidelines to organise and manage your group project for the stag
 
 **Imposter syndrome**: Everyone gets this! It does not matter how we might be coping, sometimes it is impossible to avoid feeling like you or your work might not be good enough. If you are anxious about sharing something with your group, seek feedback from someone you trust first for their advice. Do not be afraid to make mistakes. Think about your shared documents as ‘working drafts’. Do not think you have to be anything other than who you are with your group. The pressure of thinking you must pretend to be a “model” student or meet the perceived expectations of others can get in the way of your being able to contribute your unique skills and experience.
 
-## Stage one group work task sharing advice {#stageone-planning}
+## Pre-registration group work task sharing advice {#prereg-planning}
 
-As you start working in your groups, one key decision will be sharing out the tasks equitably. In the stage one report template, there are several sections and sub-sections to complete. For each component, try to summarise the following when you first meet with your group:
+As you start working in your groups, one key decision will be sharing out the tasks equitably. In the pre-registration template, there are several sections and sub-sections to complete. For each component, try to summarise the following when you first meet with your group:
 
 - What information have you already established in that section?
 
@@ -148,37 +148,33 @@ As you start working in your groups, one key decision will be sharing out the ta
 
 - How are you going to find answers to the things you do not yet know?
 
-For example, you might say for the rationale, research question, and hypothesis component of the introduction:
+For example, you might say for question 1:
 
-- **What have you already established?**: So far, we know the research question and the hypothesis, and we have a general summary of relevant papers written by the team. 
+- **What have you already established?**: So far, we know the Research Question and the Hypothesis and we have a general summary of relevant papers written by the team.  
 
 - **What do we still need to think about?**: We do not yet have a fully formed rationale or a solid understanding of the general overview.
 
-- **How will you find answers to things you do not yet know?** Helena, James, and Ashley will read the papers that have already been collected and the general literature review. From there, they will try to summarise the rationale so that it builds on what previous research has found. They will then present that to the group for further revision and discussion.
+- **How will you find answers to things you do not yet know?** Phil, Helena, and Ashley will read the papers that have already been collected and the general summary. From there, they will try to write a draft of the general topic and finalise the rationale so that it builds on what previous research has found. They will then present that to the group for further revision and discussion.
 
 Once you have done that for each section, go through and answer the following question: Who will lead on each section? 
 
-Each group member should make an equal contribution, but this does not mean every group member works on every section. Some sections might work better with one person leading and another editing, while other sections might work better with several people leading and editing. 
+Each group member should make an equal contribution, but this does not mean every group member works on every section. Some sections might work better with one person leading and another editing, while other sections might work better with several people leading and editing. Just keep in mind, it is important you understand all aspects of the pre-registration, so we recommend if you work on one or two questions, you edit or at least proof-read the other questions. 
 
-The introduction is a larger section with fewer clearly segmented tasks, whereas the method is shorter with clearly defined sub-sections. It is important you understand all aspects of the prospect, so we recommend if you work on writing the introduction, you edit or at least proof-read the method, and vice versa. 
+For example, you might write:
 
-For example, you might separate the tasks as: 
+- *Question 1*: Phil, Helena, and Ashley will lead on this section.
 
-- **Introduction literature review**: Phil, Helena, and Ashley will lead on this section. 
+- *Question 2*: Wil and Maxine will lead on this section.
 
-- **Introduction rationale, research question, and hypothesis**: Helena, James, and Ashley will lead on this section. 
+- *Question 3*: James and Alexia will lead on this section.
 
-- **Method participants**: James and Phil will lead on this section. 
+- *Question 4*: Helena and Wil will lead on this section.
 
-- **Method materials**: James and Wil will lead on this section. 
+- *Question 5*: Maxine and Phil will lead on this section.
 
-- **Method procedure**: Ashley and Sarune will lead on this section. 
+- *Code*: Alexia, Ashley, and James will lead on the Code.
 
-- **Method design and data analysis**: Sarune and Wil will lead on this section. 
-
-You might choose to separate the tasks differently, but this is one suggestion to work through. For this separation or another approach you agree in your group, question what you know, what you still need to think about, and how you will fill in the blanks:
-
-**Introduction literature review**
+1. *Present a concise evidence-based rationale, for the current study, along with your research question and hypothesis.*
 
 - What have you already established?
 
@@ -186,7 +182,7 @@ You might choose to separate the tasks differently, but this is one suggestion t
 
 - How will you fill in the blanks?
 
-**Introduction rationale, research question, and hypothesis**
+2. *Describe the key variables, specifying how they will be measured, how many levels they have (if relevant), and how participants will be assigned (if relevant).*
 
 - What have you already established?
 
@@ -194,7 +190,7 @@ You might choose to separate the tasks differently, but this is one suggestion t
 
 - How will you fill in the blanks?
 
-**Method participants**
+3. *Describe your precise rule(s) for including and/or excluding observations and/or participants in your study.*
 
 - What have you already established?
 
@@ -202,7 +198,7 @@ You might choose to separate the tasks differently, but this is one suggestion t
 
 - How will you fill in the blanks?
 
-**Method materials**
+4. *Describe exactly which inferential analysis you will conduct to test your hypothesis. Include details of any assumption tests you will conduct.*
 
 - What have you already established?
 
@@ -210,7 +206,7 @@ You might choose to separate the tasks differently, but this is one suggestion t
 
 - How will you fill in the blanks?
 
-**Method procedure**
+5. *Discuss how many observations/participants will be required to detect your smallest effect size of interest, based on your alpha and power. Provide the rationale for your choice of the smallest effect size of interest.* 
 
 - What have you already established?
 
@@ -218,7 +214,7 @@ You might choose to separate the tasks differently, but this is one suggestion t
 
 - How will you fill in the blanks?
 
-**Method design and data analysis**
+6. *Analysis Code*
 
 - What have you already established?
 
@@ -226,18 +222,18 @@ You might choose to separate the tasks differently, but this is one suggestion t
 
 - How will you fill in the blanks?
 
-**Who will lead on each section?**
+*Who will lead on each question?*
 
-- Introduction literature review:
+- Section 1:
 
-- Introduction rationale, research question, and hypothesis:
+- Section 2:
 
-- Method participants:
+- Section 3:
 
-- Method materials:
+- Section 4:
 
-- Method procedure:
+- Section 5
 
-- Method design and data analysis:
+- Code:
 
-You can either copy and adapt these questions to work on in your own document, or [download this template](Supporting/Stage One Report Task Sharing.docx) to structure your group discussions. 
+You can either copy and adapt these questions to work on in your own document, or [download this template](Supporting/PlanningThePreRegistration.docx) to structure your group discussions. 

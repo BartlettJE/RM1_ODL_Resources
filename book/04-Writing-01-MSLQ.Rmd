@@ -2,9 +2,9 @@
 source(file = "include/deadlines.R")
 ```
 
-# Registered Report and MSLQ Overview {#MSLQ-overview}
+# Pre-registration and MSLQ Overview {#MSLQ-overview}
 
-## General overview of the registered report
+## General overview of the pre-registration
 
 In this course, we are preparing you to read and appraise journal articles, and write up an empirical quantitative research project yourself. Throughout the lectures, labs, and independent learning, you will learn how to formulate a research question, design a study, apply statistical analyses, and write up your results to communicate to others as a research report.
 
