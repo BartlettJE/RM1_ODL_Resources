@@ -11,7 +11,7 @@ points-about-inclusivity
 supporting-self-efficacygroup-dynamics
 prereg-planning
 MSLQ-overview
-general-overview-of-the-pre-registration
+general-overview-of-the-research-project
 research-project-topic
 mslq
 demographic-variables
@@ -19,7 +19,7 @@ distinguishing-types-of-research-questions
 mslq-suggested-variable-pairs
 t-test-for-comparing-two-categories
 correlation-for-the-association-between-two-variables.
-wild-card-for-two-different-variables.
+Prereg-overview
 Writing-02
 finding-journal-articles
 identifying-key-words
