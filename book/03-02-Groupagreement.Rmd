@@ -13,12 +13,11 @@ source(file = "include/deadlines.R")
 - The deadline is **`r groupagreement_due`**.
 
 - Although you will agree on the document as a group, each group member must then **individually** sign (electronic or a printed name, you do not need to physically sign it) and upload a copy to the submission portal. 
-
 - You should submit a single Word document (.docx) or PDF document to Moodle prior to the deadline. The submission link is open from when the group allocations are available in week 2. You can find the submission portal in the Group Allocations, Resources, and Agreement Submission tab. 
 
 ## Group agreement items
 
-The group work agreement template (available for download in the RM1 ODL Moodle Group Allocations, Resources, and Agreement Submission tab) contains five points that we have set, but you may add any additional points that the group agrees.
+The group work agreement template (available for download in the RM1 ODL "Moodle Group Allocations, Resources, and Agreement Submission" tab) contains five points that we have set, but you may add any additional points that the group agrees.
 
 The mandatory points are: 
 
@@ -120,11 +119,21 @@ Below are some guidelines to organise and manage your group project for the pre-
 
 - DON’T: Forget to check you are uploading the correct intended file.
 
+### Advice for managing the project
+
+As an ODL programme, you may not be able to meet synchronously, so make sure you discuss how you will complete your group work and share your progress for shared tasks. Consider the following: 
+
+- Create a shared OneDrive folder or Teams channel/chat where you can share and collaborate on files. 
+
+- R Markdown does not work well collaboratively, but you can collaboratively write the five questions through a shared Word file within OneDrive or Teams, or a Google doc. Once you are all happy with your answers, you can copy and paste into your master .Rmd file. 
+
+- You could create a shared Zotero folder to add all the articles you found for the rationale and support your decisions. 
+
 ### Points about inclusivity
 
 **Language**: Many students in this programme are studying in their second, third, or even fourth language. Consider the challenges you might experience if you were studying beyond your first language and be mindful of making implicit judgements about someone’s writing or communication.
 
-**Timing/working patterns**: Be mindful that everyone’s life balance and commitments are different. Some people prefer studying during traditional working hours, some in the evenings, and others on weekends. Communicate your preferences openly and as a group be as flexible and accommodating as you can. Can the times/days of meetings be flexible if this helps everyone contribute and feel engaged? As an ODL programme, you may not be able to meet synchronously, so discuss how you will complete your group work and share your progress for shared tasks.
+**Timing/working patterns**: Be mindful that everyone’s life balance and commitments are different. Some people prefer studying during traditional working hours, some in the evenings, and others on weekends. Communicate your preferences openly and as a group be as flexible and accommodating as you can. Can the times/days of meetings be flexible if this helps everyone contribute and feel engaged? 
 
 **Technology**: The technology/platforms we recommend might not be your favourites, but we recommend them for a reason. These are things we can directly support, and they are the things that we make sure all students in different countries can access. Using some apps/tools can explicitly exclude some members that want to engage and contribute.
 
