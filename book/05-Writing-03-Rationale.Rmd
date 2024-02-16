@@ -8,13 +8,15 @@ library(knitr)
 
 # Structure of the Introduction and Rationale {#intro-rationale}
 
-Now we have introduced you to the idea of an empirical quantitative research report, we will spend most of the semester breaking down specific sections or skills that go into a report. Empirical psychology articles follow a roughly standardised approach resembling an hour glass. The main sections include an abstract, introduction, method, results, and discussion. 
+Now we have introduced you to the idea of an empirical quantitative article/report, we will spend most of the semester breaking down specific sections or skills that go into a report. Empirical psychology articles follow a roughly standardised approach resembling an hour glass. The main sections include an abstract, introduction, method, results, and discussion. 
 
 In this chapter, we are focusing on the introduction as the first major section in a report. The abstract technically comes first, but given it is a summary of your whole report, you typically write it last, so we will save that for later. 
 
 ```{r structure figure, fig.alt = "Empirical report structure as an hourglass shape. Moving from broad to narrow in the introduction. Then narrow to broad in the discussion."}
 include_graphics("images/03-report-structure.png")
 ```
+
+For the assessments in this course, question 1 of the pre-registration will be like a tiny introduction. You will condence all the key concepts here to briefly outline previous research, then outline your rationale, research question, and hypothesis (where relevant). When it comes to the final report, you will write a full introduction.
 
 ## The introduction 
 
@@ -102,11 +104,11 @@ To break down these features, we can start with a good example of: **We hypothes
 
 Depending on how much previous literature is out there and how convinced you are by it, you can pose a **directional** or **non-directional** hypothesis. A directional hypothesis makes a prediction in a specific direction, for instance group A will be faster than group B. On the other hand, a non-directional hypothesis predicts there will be an effect, but it is not clear what direction it will be. For example, the speed of group A will be different to the speed of group B.
 
-#### How does this relate to your stage one group report? 
+#### How does this relate to your assignments? 
 
-For your stage one group report, you will be focusing on either a correlation between two variables, or comparing the difference in one outcome between two groups. Depending on which approach you and your group are taking, the terminology you use for the research question and hypothesis will differ.
+For your pre-registration and full report, you will be focusing on either a correlation between two variables, or comparing the difference in one outcome between two groups. Depending on which approach you and your group are taking, the terminology you use for the research question and hypothesis will differ.
 
-Correlations assess whether there is a relationship between two variables. You might have a non-directional prediction where you think two variables are correlated, but you are not sure how. Alternatively, you might have a directional prediction where you expect a certain correlation direction. Positive correlations are where if one variable increases, the other variable tends to increase. Negative correlations are where if one variable increases, the other variables tends to decrease. If some of the terminology is unfamiliar to you at this point, we do not cover correlations until the lecture in week 5. 
+Correlations assess whether there is a relationship between two variables. You might have a non-directional prediction where you think two variables are correlated, but you are not sure how. Alternatively, you might have a directional prediction where you expect a certain correlation direction. Positive correlations are where if one variable increases, the other variable tends to increase. Negative correlations are where if one variable increases, the other variables tends to decrease.
 
 In contrast, comparing groups assesses whether there is a difference between two groups on your outcome. If you have a non-directional hypothesis, you think there might be a difference between the two groups, but you are not sure which direction. If you have a directional hypothesis, you expect one group to score higher than the other group. 
 

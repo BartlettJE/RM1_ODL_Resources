@@ -1,8 +1,4 @@
-```{r, echo=FALSE}
-source(file = "include/deadlines.R")
 
-library(knitr)
-```
 
 # Pre-registration guidance {#Prereg-overview}
 
@@ -16,9 +12,7 @@ The two main submissions for this project are:
 
 These are two individual but connected assignments. You will collaboratively write the pre-registration in groups of 5 or 6 to plan your study. You will then individually write the full report, applying what you planned in the pre-registration. 
 
-```{r prereg figure, fig.alt = "Collaboratively write the pre-registration then individually write the full report", echo=FALSE}
-include_graphics("images/prereg vs full report.png")
-```
+<img src="images/prereg vs full report.png" alt="Collaboratively write the pre-registration then individually write the full report" width="100%" style="display: block; margin: auto;" />
 
 In this chapter, we will focus on the pre-registration as the first major assignment of semester 2. The word limit includes all the text within your responses to the five questions at the start of the pre-registration template, including any in-text citations. However, it **does not** include the text of the questions in the template, your reference list, or your analysis code
 
@@ -92,9 +86,7 @@ In a typical study, you write the pre-registration before collecting data, or th
 
 This is what we are trying to recreate in this assignment, but we share a small chunk of the real data for you to use. This means you can see how the data will look and demonstrate the code you will use to process and analyse the data.
 
-```{r prereg data figure, fig.alt = "preregistration data extract vs the full data set", echo=FALSE}
-include_graphics("images/prereg data.png")
-```
+<img src="images/prereg data.png" alt="preregistration data extract vs the full data set" width="100%" style="display: block; margin: auto;" />
 
 Once you get the final real data files, you will be able to replace the preregistration data files and use the same code. It is this point you start making conclusions and thinking whether you addressed your research question and your hypothesis or not. 
 

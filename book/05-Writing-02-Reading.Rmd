@@ -9,7 +9,7 @@ knitr::opts_chunk$set(echo = FALSE)
 
 # Finding, Reading, and Organising Journal Articles {#Writing-02}
 
-In this resource to support the week 2 lab and research skills, you work on finding journal articles and using a reference manager, reading empirical journal articles and identifying key information, and starting to organise your articles for assignments. 
+In this chapter, you will find guidance on finding journal articles and using a reference manager, reading empirical journal articles and identifying key information, and starting to organise your articles for assignments. 
 
 ## Finding journal articles
 
