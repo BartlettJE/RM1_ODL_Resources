@@ -2,7 +2,7 @@
 title: "MSc Research Methods 1 ODL Course Information" # edit
 #subtitle: "optional" 
 author: "James Bartlett, Phil McAleer, & Helena Paterson" # edit
-date: "2024-02-16"
+date: "2024-03-01"
 site: bookdown::bookdown_site
 documentclass: book
 classoption: oneside # for PDFs

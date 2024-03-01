@@ -7,7 +7,7 @@
 <title>Chapter 4 Pre-registration guidance | MSc Research Methods 1 ODL Course Information</title>
 <meta name="author" content="James Bartlett, Phil McAleer, &amp; Helena Paterson">
 <meta name="description" content="4.1 Overview and submission details The two main submissions for this project are: The group pre-registration (1000 word limit, worth 30% of the course) The individual full report (3000 word...">
-<meta name="generator" content="bookdown 0.36 with bs4_book()">
+<meta name="generator" content="bookdown 0.26 with bs4_book()">
 <meta property="og:title" content="Chapter 4 Pre-registration guidance | MSc Research Methods 1 ODL Course Information">
 <meta property="og:type" content="book">
 <meta property="og:url" content="https://bartlettje.github.io/RM1_ODL_Resources/Prereg-overview.html">
@@ -19,7 +19,7 @@
 <meta name="twitter:image" content="https://bartlettje.github.io/RM1_ODL_Resources/images/logos/logo.png">
 <!-- JS --><script src="https://cdnjs.cloudflare.com/ajax/libs/clipboard.js/2.0.6/clipboard.min.js" integrity="sha256-inc5kl9MA1hkeYUt+EC3BhlIgyp/2jDIyBLS6k3UxPI=" crossorigin="anonymous"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/fuse.js/6.4.6/fuse.js" integrity="sha512-zv6Ywkjyktsohkbp9bb45V6tEMoWhzFzXis+LrMehmJZZSys19Yxf1dopHx7WzIKxr5tK2dVcYmaCk2uqdjF4A==" crossorigin="anonymous"></script><script src="https://kit.fontawesome.com/6ecbd6c532.js" crossorigin="anonymous"></script><script src="libs/jquery-3.6.0/jquery-3.6.0.min.js"></script><meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 <link href="libs/bootstrap-4.6.0/bootstrap.min.css" rel="stylesheet">
-<script src="libs/bootstrap-4.6.0/bootstrap.bundle.min.js"></script><script src="libs/bs3compat-0.6.1/transition.js"></script><script src="libs/bs3compat-0.6.1/tabs.js"></script><script src="libs/bs3compat-0.6.1/bs3compat.js"></script><link href="libs/bs4_book-1.0.0/bs4_book.css" rel="stylesheet">
+<script src="libs/bootstrap-4.6.0/bootstrap.bundle.min.js"></script><script src="libs/bs3compat-0.4.1/transition.js"></script><script src="libs/bs3compat-0.4.1/tabs.js"></script><script src="libs/bs3compat-0.4.1/bs3compat.js"></script><link href="libs/bs4_book-1.0.0/bs4_book.css" rel="stylesheet">
 <script src="libs/bs4_book-1.0.0/bs4_book.js"></script><script src="libs/kePrint-0.0.1/kePrint.js"></script><link href="libs/lightable-0.0.1/lightable.css" rel="stylesheet">
 <!-- Global site tag (gtag.js) - Google Analytics --><script async src="https://www.googletagmanager.com/gtag/js?id=G-6NP3MF25W3"></script><script>
       window.dataLayer = window.dataLayer || [];
@@ -111,7 +111,7 @@
 <li><p>The individual full report (3000 word limit, worth 50% of the course)</p></li>
 </ol>
 <p>These are two individual but connected assignments. You will collaboratively write the pre-registration in groups of 5 or 6 to plan your study. You will then individually write the full report, applying what you planned in the pre-registration.</p>
-<div class="inline-figure"><img src="images/prereg%20vs%20full%20report.png" alt="Collaboratively write the pre-registration then individually write the full report" width="100%" style="display: block; margin: auto;"></div>
+<div class="inline-figure"><img src="images/prereg%20vs%20full%20report.png" title="Collaboratively write the pre-registration then individually write the full report" alt="Collaboratively write the pre-registration then individually write the full report" width="100%" style="display: block; margin: auto;"></div>
 <p>In this chapter, we will focus on the pre-registration as the first major assignment of semester 2. The word limit includes all the text within your responses to the five questions at the start of the pre-registration template, including any in-text citations. However, it <strong>does not</strong> include the text of the questions in the template, your reference list, or your analysis code</p>
 <p>Please submit the completed .Rmd file, the two data files, and a copy of the knitted Word file. For further details and confirmation of the deadline, please see the <strong>pre-registration AIS</strong> on the Moodle course overview page.</p>
 <p>Your marker should be able to download all of the files and reproduce the knitted Word document without any errors. Before you change anything, knit the file to make sure there are no initial errors. Once you have a complete draft, we also recommend making sure another member of your group can knit the document to ensure it is reproducible across different computers.</p>
@@ -170,7 +170,7 @@
 <p>One common question is how the pre-registration and the data you are using will differ to your final report.</p>
 <p>In a typical study, you write the pre-registration before collecting data, or the very least before analysing the data. It is your plan for how you will design your study and analyse the data. It can be difficult to imagine and precisely describe the data analysis process without data, so it is normally a good idea to use fake data that is in the same format as your real data. This means you can demonstrate how you will analyse the data based on this fake data. It is <strong>not</strong> there to many any conclusions, you are just using it to demonstrate your plan.</p>
 <p>This is what we are trying to recreate in this assignment, but we share a small chunk of the real data for you to use. This means you can see how the data will look and demonstrate the code you will use to process and analyse the data.</p>
-<div class="inline-figure"><img src="images/prereg%20data.png" alt="preregistration data extract vs the full data set" width="100%" style="display: block; margin: auto;"></div>
+<div class="inline-figure"><img src="images/prereg%20data.png" title="preregistration data extract vs the full data set" alt="preregistration data extract vs the full data set" width="100%" style="display: block; margin: auto;"></div>
 <p>Once you get the final real data files, you will be able to replace the preregistration data files and use the same code. It is this point you start making conclusions and thinking whether you addressed your research question and your hypothesis or not.</p>
 <div class="dangerous">
 <p>You <strong>do not</strong> need to compare your final results to what you observed in the pre-registration as that was only to demonstrate your plan.</p>
@@ -275,9 +275,181 @@
 <p>You may not be able to prepare all of the code now, but you can do most of the wrangling, processing, and planned statistical tests. For example, you might not be able to prepare the code to remove everyone based on a given criterion just yet as it might not apply to the data extract and only the full data will allow that, but you can definitely make a start on all of the sections.</p>
 </div>
 </div>
-<div id="preregistration-examples" class="section level2" number="4.7">
+<div id="coding-guidance" class="section level2" number="4.7">
 <h2>
-<span class="header-section-number">4.7</span> Preregistration examples<a class="anchor" aria-label="anchor" href="#preregistration-examples"><i class="fas fa-link"></i></a>
+<span class="header-section-number">4.7</span> Coding guidance<a class="anchor" aria-label="anchor" href="#coding-guidance"><i class="fas fa-link"></i></a>
+</h2>
+<p>On the RM1 ODL Moodle page, you will see the "Project resources for the pre-registration and report" tab. Under "Pre-registration Resources", you can access the pre-registration template .Rmd file and the small data extract.</p>
+<p>At the end of the pre-registration template .Rmd file, there are 12 prompts for what steps to complete when processing the data, and adding your visualisations and analyses. Some prompts contain complete code chunks to run, some contain code chunks to edit, while others are completely blank. This is where you will put your all your data skills into practice, such as data wrangling, visualisation, and descriptive and inferential statistics.</p>
+<p>The .Rmd file contains brief explanations and prompts, but here we are reinforcing what skills go into each component and highlighting relevant content from the Quantitative Fundamentals data skills book.</p>
+<div id="load-in-packages-and-data." class="section level3" number="4.7.1">
+<h3>
+<span class="header-section-number">4.7.1</span> 1. Load in packages and data.<a class="anchor" aria-label="anchor" href="#load-in-packages-and-data."><i class="fas fa-link"></i></a>
+</h3>
+<p>The first code chunks provides a starting point to working with the data. It loads <code>tidyverse</code> and reads in both of the data sets you will be working with. It is normally good practice to load all the packages you need at the start of the script, so if you need packages for later steps, add them into this code chunk rather than dispersing them throughout the script.</p>
+<p><strong>Key data skills</strong>:</p>
+<ul>
+<li>Chapter 3 - Starting with data.</li>
+</ul>
+</div>
+<div id="clean-up-the-data" class="section level3" number="4.7.2">
+<h3>
+<span class="header-section-number">4.7.2</span> 2. Clean up the data<a class="anchor" aria-label="anchor" href="#clean-up-the-data"><i class="fas fa-link"></i></a>
+</h3>
+<p>The code chunk here should be run without edits, assuming the data you read in have the original object names. The code here will clean up the Experimentum data a little bit to help you on your way. Its taken from the <a href="https://debruine.github.io/experimentum/data.html">Experimentum manual</a> to retain only the first time any participant completes the study. Without it, you can encounter various problems in later steps if there are duplicate user IDs, so please make sure you run this chunk.</p>
+<div class="info">
+<p>While you do not need to edit this code chunk, read over it and work out what it is doing. You will recognise all the data wrangling functions, so identify what each line is doing to the raw data files.</p>
+</div>
+<p><strong>Key data skills</strong>:</p>
+<ul>
+<li><p>Chapter 4 - Data wrangling 1.</p></li>
+<li><p>Chapter 5 - Data wrangling 2.</p></li>
+<li><p>Chapter 6 - Data wrangling 3.</p></li>
+</ul>
+</div>
+<div id="join-together-the-data-files-by-their-common-columns" class="section level3" number="4.7.3">
+<h3>
+<span class="header-section-number">4.7.3</span> 3. Join together the data files by their common columns<a class="anchor" aria-label="anchor" href="#join-together-the-data-files-by-their-common-columns"><i class="fas fa-link"></i></a>
+</h3>
+<p>We provide the data as two separate files: one for demographics and one for the MSLQ questions. For further processing and analysis, you will want all of this information in one data frame. The code chunk is blank, so add in code to join the two data files by all their common columns.</p>
+<p><strong>Key data skills</strong>:</p>
+<ul>
+<li><p>Chapter 3 - Starting with data.</p></li>
+<li><p>Chapter 4 - Data wrangling 1.</p></li>
+<li><p>Chapter 5 - Data wrangling 2.</p></li>
+<li><p>Chapter 6 - Data wrangling 3.</p></li>
+</ul>
+</div>
+<div id="use-select-to-retain-only-the-variables-you-need-for-your-analysis" class="section level3" number="4.7.4">
+<h3>
+<span class="header-section-number">4.7.4</span> 4. Use select to retain only the variables you need for your analysis<a class="anchor" aria-label="anchor" href="#use-select-to-retain-only-the-variables-you-need-for-your-analysis"><i class="fas fa-link"></i></a>
+</h3>
+<p>At the moment, you will have many variables for all the demographics and all the MSLQ questions. You will not need all of the variables, so it will make it easier to work with if you just retain the ones you need. For example, the user_id, any demographic variables to use or report, and the MSLQ items you need for your specific project.</p>
+<p><strong>Key data skills</strong>:</p>
+<ul>
+<li><p>Chapter 4 - Data wrangling 1.</p></li>
+<li><p>Chapter 5 - Data wrangling 2.</p></li>
+<li><p>Chapter 6 - Data wrangling 3.</p></li>
+</ul>
+</div>
+<div id="if-necessary-use-filter-to-retain-only-the-observations-you-need." class="section level3" number="4.7.5">
+<h3>
+<span class="header-section-number">4.7.5</span> 5. If necessary, use <code>filter()</code> to retain only the observations you need.<a class="anchor" aria-label="anchor" href="#if-necessary-use-filter-to-retain-only-the-observations-you-need."><i class="fas fa-link"></i></a>
+</h3>
+<p>This is where you would think about your inclusion and/or exclusion criteria. Do you plan on only including participants with certain characteristics in your study? For example, you might need to remove participants above a certain age, or only use mature students etc. If you do not need to filter things then leave this section blank or delete it.</p>
+<div class="info">
+<p>Its normally a good idea to report how many participants you start with, and how many you exclude, to leave your final sample size you work with. This is not relevant to the pre-registration, but you will need it for the final report and full data set. So, if you plan on excluding people at this stage, think about how you would record the sample size at each stage.</p>
+</div>
+<p><strong>Key data skills</strong>:</p>
+<ul>
+<li><p>Chapter 4 - Data wrangling 1.</p></li>
+<li><p>Chapter 5 - Data wrangling 2.</p></li>
+<li><p>Chapter 6 - Data wrangling 3.</p></li>
+</ul>
+</div>
+<div id="explore-the-data-to-check-what-type-each-variable-is" class="section level3" number="4.7.6">
+<h3>
+<span class="header-section-number">4.7.6</span> 6. Explore the data to check what "type" each variable is<a class="anchor" aria-label="anchor" href="#explore-the-data-to-check-what-type-each-variable-is"><i class="fas fa-link"></i></a>
+</h3>
+<p>At this point, you are getting close to applying the analysis steps for your data. Now, it would be a good time for some exploratory data analysis to understand what your data look like. For example, checking the variables to see whether they are a character, numeric, etc. Think about functions like <code><a href="https://rdrr.io/r/base/summary.html">summary()</a></code>, <code><a href="https://rdrr.io/r/utils/str.html">str()</a></code>, and <code>glimpse()</code> to check out each variable. Recode any necessary variables as factors and, if you would like to, change numeric codes (e.g., 1 for native speaker) into words to make it easier to read the output and make appropriate visualisations. You might also create some quick exploratory data analysis plots like histograms to check out the properties of your data.</p>
+<p><strong>Key data skills</strong>:</p>
+<ul>
+<li><p>Chapter 3 - Starting with data.</p></li>
+<li><p>Chapter 4 - Data wrangling 1.</p></li>
+<li><p>Chapter 5 - Data wrangling 2.</p></li>
+<li><p>Chapter 6 - Data wrangling 3.</p></li>
+<li><p>Chapter 7 - Intro to data visualisation.</p></li>
+</ul>
+</div>
+<div id="calculate-the-mean-score-for-each-participant-for-each-sub-scale." class="section level3" number="4.7.7">
+<h3>
+<span class="header-section-number">4.7.7</span> 7. Calculate the mean score for each participant for each sub-scale.<a class="anchor" aria-label="anchor" href="#calculate-the-mean-score-for-each-participant-for-each-sub-scale."><i class="fas fa-link"></i></a>
+</h3>
+<p>There are two code chunks here and they provide a starting point for you to edit. One is intended for those working with different groups/a t-test, and the other is intended for those working with relationships/correlations. The code chunks take the MSLQ items and calculates a subscale score.</p>
+<p>There are a few ways you can do this but the Experimentum documentation provides example code to make this easier. For now, you have to adapt the code for the variables you need - changing only a few names to make it work for your data. You may also want to change the <code>na.rm = TRUE</code> for the calculation of means depending on whether you want to only include participants who completed all questions.</p>
+<div class="warning">
+<p>There are two code chunks here, but you only need <strong>one</strong>. You will be able to run the code, but if you try and knit the file, you might get an error for the code chunks after this section. This is because at the top of the code chunk you are using, you must change <code>eval = FALSE</code> to <code>eval = TRUE</code> once you have amended your code. The reason it is currently set to FALSE is to allow the file to knit without your edits. <code>eval = FALSE</code> says ignore the code chunk. <code>eval = TRUE</code> says run the code chunk. So, when it comes to the code chunks after this, it would not have run the code and the object would not exist. So, make sure you edit the code chunk you need for your analysis.</p>
+</div>
+<p><strong>Key data skills</strong>:</p>
+<ul>
+<li><p>Chapter 3 - Starting with data.</p></li>
+<li><p>Chapter 4 - Data wrangling 1.</p></li>
+<li><p>Chapter 5 - Data wrangling 2.</p></li>
+<li><p>Chapter 6 - Data wrangling 3.</p></li>
+</ul>
+</div>
+<div id="check-assumptions" class="section level3" number="4.7.8">
+<h3>
+<span class="header-section-number">4.7.8</span> 8. Check assumptions<a class="anchor" aria-label="anchor" href="#check-assumptions"><i class="fas fa-link"></i></a>
+</h3>
+<p>You should now have the data set in the format that you need for analysis. Now you should check that the data meets the assumptions of the tests you want to conduct. This will be, depending on analysis, aspects such as normality, linearity, homoscedasticity, etc.</p>
+<div class="info">
+<p>Remember assumption checks are often a grey judgement call, there might not be a black and white decision. Many of the checks rely on visualisations and your interpretation, so it is about being able to rationalise and justify your decision to the reader.</p>
+</div>
+<p><strong>Key data skills</strong>:</p>
+<ul>
+<li><p>Chapter 9 - Correlations.</p></li>
+<li><p>Chapter 10 - t-tests.</p></li>
+<li><p>Chapter 12 - Screening data.</p></li>
+</ul>
+</div>
+<div id="data-visualisation" class="section level3" number="4.7.9">
+<h3>
+<span class="header-section-number">4.7.9</span> 9. Data visualisation<a class="anchor" aria-label="anchor" href="#data-visualisation"><i class="fas fa-link"></i></a>
+</h3>
+<p>Next, you should visualise the data for each analysis with your reader in mind. For a t-test you might want to visualise the data through a violin-boxplot. For a correlation, you would be looking for a scatterplot. Refer back to semester 1 week 4 for data visualisation principles, then the relevant analysis chapters for formatting suitable plot types for your design.</p>
+<p><strong>Key data skills</strong>:</p>
+<ul>
+<li><p>Chapter 7 - Intro to data visualisation.</p></li>
+<li><p>Chapter 9 - Correlations.</p></li>
+<li><p>Chapter 10 - t-tests.</p></li>
+</ul>
+</div>
+<div id="calculate-descriptive-statistics" class="section level3" number="4.7.10">
+<h3>
+<span class="header-section-number">4.7.10</span> 10. Calculate descriptive statistics<a class="anchor" aria-label="anchor" href="#calculate-descriptive-statistics"><i class="fas fa-link"></i></a>
+</h3>
+<p>You may have already obtained some useful descriptive statistics from previous sections, but if not, or there are additional ones you want to include, calculate them here. This might include means, standard deviations, the sample size for various groups etc. If you already have the relevant information, then leave this blank.</p>
+<div class="info">
+<p>Remember to consider what descriptive statistics are appropriate for the data and assumptions you are working with. Would the mean and standard deviation be best, or the median and interquartile range?</p>
+</div>
+<p><strong>Key data skills</strong>:</p>
+<ul>
+<li><p>Chapter 4 - Data wrangling 1.</p></li>
+<li><p>Chapter 5 - Data wrangling 2.</p></li>
+<li><p>Chapter 6 - Data wrangling 3.</p></li>
+<li><p>Chapter 9 - Correlations.</p></li>
+<li><p>Chapter 10 - t-tests.</p></li>
+</ul>
+</div>
+<div id="statistical-power" class="section level3" number="4.7.11">
+<h3>
+<span class="header-section-number">4.7.11</span> 11. Statistical power<a class="anchor" aria-label="anchor" href="#statistical-power"><i class="fas fa-link"></i></a>
+</h3>
+<p>You do not have control over the final sample size, but it is important to demonstrate you can calculate how many participants you would need to detect your Smallest Effect Size of Interest (SESOI) for an <em>a priori</em> power analysis. When you have the full data set, you can adapt the code to establish what effect size your final sample size was sensitive to detect for a <em>sensitivity</em> power analysis.</p>
+<p><strong>Key data skills</strong>:</p>
+<ul>
+<li><p>Chapter 9 - Correlations.</p></li>
+<li><p>Chapter 10 - t-tests.</p></li>
+<li><p>Chapter 11 - Power and effect sizes.</p></li>
+</ul>
+</div>
+<div id="inferential-statistics" class="section level3" number="4.7.12">
+<h3>
+<span class="header-section-number">4.7.12</span> 12. Inferential statistics<a class="anchor" aria-label="anchor" href="#inferential-statistics"><i class="fas fa-link"></i></a>
+</h3>
+<p>Finally, you can conduct your inferential statistical analysis. Remember the three key components of inferential statistics: null hypothesis significance testing, effect size, and a confidence interval. Think about what statistical test will address your research question and hypothesis, given the design.</p>
+<p><strong>Key data skills</strong>:</p>
+<ul>
+<li><p>Chapter 9 - Correlations.</p></li>
+<li><p>Chapter 10 - t-tests.</p></li>
+<li><p>Chapter 11 - Power and effect sizes.</p></li>
+</ul>
+</div>
+</div>
+<div id="preregistration-examples" class="section level2" number="4.8">
+<h2>
+<span class="header-section-number">4.8</span> Preregistration examples<a class="anchor" aria-label="anchor" href="#preregistration-examples"><i class="fas fa-link"></i></a>
 </h2>
 <p>As a final reference point, you might find it useful to look at examples of pre-registrations to see how they are framed. Just keep in mind there are different pre-registration templates. Some are shorter, while others are longer. Remember this is an assessment, so they might include additional sections we have not asked you to include, so make sure you follow the template we provide.</p>
 <p><strong>Note</strong>: These examples are not meant to provide a gold standard of what to aim for. Their writing style, presentation, and content might be different to guidance we have provided throughout this course. We just think it is useful to see different examples of a pre-registration and use them to reflect on your own work.</p>
@@ -314,7 +486,23 @@
 <li><a class="nav-link" href="#analysis-code"><span class="header-section-number">4.6.7</span> 7. Analysis code</a></li>
 </ul>
 </li>
-<li><a class="nav-link" href="#preregistration-examples"><span class="header-section-number">4.7</span> Preregistration examples</a></li>
+<li>
+<a class="nav-link" href="#coding-guidance"><span class="header-section-number">4.7</span> Coding guidance</a><ul class="nav navbar-nav">
+<li><a class="nav-link" href="#load-in-packages-and-data."><span class="header-section-number">4.7.1</span> 1. Load in packages and data.</a></li>
+<li><a class="nav-link" href="#clean-up-the-data"><span class="header-section-number">4.7.2</span> 2. Clean up the data</a></li>
+<li><a class="nav-link" href="#join-together-the-data-files-by-their-common-columns"><span class="header-section-number">4.7.3</span> 3. Join together the data files by their common columns</a></li>
+<li><a class="nav-link" href="#use-select-to-retain-only-the-variables-you-need-for-your-analysis"><span class="header-section-number">4.7.4</span> 4. Use select to retain only the variables you need for your analysis</a></li>
+<li><a class="nav-link" href="#if-necessary-use-filter-to-retain-only-the-observations-you-need."><span class="header-section-number">4.7.5</span> 5. If necessary, use filter() to retain only the observations you need.</a></li>
+<li><a class="nav-link" href="#explore-the-data-to-check-what-type-each-variable-is"><span class="header-section-number">4.7.6</span> 6. Explore the data to check what "type" each variable is</a></li>
+<li><a class="nav-link" href="#calculate-the-mean-score-for-each-participant-for-each-sub-scale."><span class="header-section-number">4.7.7</span> 7. Calculate the mean score for each participant for each sub-scale.</a></li>
+<li><a class="nav-link" href="#check-assumptions"><span class="header-section-number">4.7.8</span> 8. Check assumptions</a></li>
+<li><a class="nav-link" href="#data-visualisation"><span class="header-section-number">4.7.9</span> 9. Data visualisation</a></li>
+<li><a class="nav-link" href="#calculate-descriptive-statistics"><span class="header-section-number">4.7.10</span> 10. Calculate descriptive statistics</a></li>
+<li><a class="nav-link" href="#statistical-power"><span class="header-section-number">4.7.11</span> 11. Statistical power</a></li>
+<li><a class="nav-link" href="#inferential-statistics"><span class="header-section-number">4.7.12</span> 12. Inferential statistics</a></li>
+</ul>
+</li>
+<li><a class="nav-link" href="#preregistration-examples"><span class="header-section-number">4.8</span> Preregistration examples</a></li>
 </ul>
 
       <div class="book-extra">
@@ -535,7 +723,7 @@ $( document ).ready(function() {
 <footer class="bg-primary text-light mt-5"><div class="container"><div class="row">
 
   <div class="col-12 col-md-6 mt-3">
-    <p>"<strong>MSc Research Methods 1 ODL Course Information</strong>" was written by James Bartlett, Phil McAleer, &amp; Helena Paterson. It was last built on 2024-02-16.</p>
+    <p>"<strong>MSc Research Methods 1 ODL Course Information</strong>" was written by James Bartlett, Phil McAleer, &amp; Helena Paterson. It was last built on 2024-03-01.</p>
   </div>
 
   <div class="col-12 col-md-6 mt-3">

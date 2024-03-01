@@ -12,7 +12,7 @@ The two main submissions for this project are:
 
 These are two individual but connected assignments. You will collaboratively write the pre-registration in groups of 5 or 6 to plan your study. You will then individually write the full report, applying what you planned in the pre-registration. 
 
-<img src="images/prereg vs full report.png" alt="Collaboratively write the pre-registration then individually write the full report" width="100%" style="display: block; margin: auto;" />
+<img src="images/prereg vs full report.png" title="Collaboratively write the pre-registration then individually write the full report" alt="Collaboratively write the pre-registration then individually write the full report" width="100%" style="display: block; margin: auto;" />
 
 In this chapter, we will focus on the pre-registration as the first major assignment of semester 2. The word limit includes all the text within your responses to the five questions at the start of the pre-registration template, including any in-text citations. However, it **does not** include the text of the questions in the template, your reference list, or your analysis code
 
@@ -86,7 +86,7 @@ In a typical study, you write the pre-registration before collecting data, or th
 
 This is what we are trying to recreate in this assignment, but we share a small chunk of the real data for you to use. This means you can see how the data will look and demonstrate the code you will use to process and analyse the data.
 
-<img src="images/prereg data.png" alt="preregistration data extract vs the full data set" width="100%" style="display: block; margin: auto;" />
+<img src="images/prereg data.png" title="preregistration data extract vs the full data set" alt="preregistration data extract vs the full data set" width="100%" style="display: block; margin: auto;" />
 
 Once you get the final real data files, you will be able to replace the preregistration data files and use the same code. It is this point you start making conclusions and thinking whether you addressed your research question and your hypothesis or not. 
 
@@ -201,6 +201,188 @@ The completed .Rmd file for the pre-registration should contain your analysis co
 The final data set will be in the same format so you can reuse the code. Analysing the mock data allows you to visualise what the final data might look like and helps you recognise the decisions you will need to make.
 
 You may not be able to prepare all of the code now, but you can do most of the wrangling, processing, and planned statistical tests. For example, you might not be able to prepare the code to remove everyone based on a given criterion just yet as it might not apply to the data extract and only the full data will allow that, but you can definitely make a start on all of the sections.
+
+## Coding guidance 
+
+On the RM1 ODL Moodle page, you will see the "Project resources for the pre-registration and report" tab. Under "Pre-registration Resources", you can access the pre-registration template .Rmd file and the small data extract.
+
+At the end of the pre-registration template .Rmd file, there are 12 prompts for what steps to complete when processing the data, and adding your visualisations and analyses. Some prompts contain complete code chunks to run, some contain code chunks to edit, while others are completely blank. This is where you will put your all your data skills into practice, such as data wrangling, visualisation, and descriptive and inferential statistics. 
+
+The .Rmd file contains brief explanations and prompts, but here we are reinforcing what skills go into each component and highlighting relevant content from the Quantitative Fundamentals data skills book. 
+
+### 1. Load in packages and data. 
+
+The first code chunks provides a starting point to working with the data. It loads `tidyverse` and reads in both of the data sets you will be working with. It is normally good practice to load all the packages you need at the start of the script, so if you need packages for later steps, add them into this code chunk rather than dispersing them throughout the script. 
+
+**Key data skills**: 
+
+- Chapter 3 - Starting with data. 
+
+### 2. Clean up the data
+
+The code chunk here should be run without edits, assuming the data you read in have the original object names. The code here will clean up the Experimentum data a little bit to help you on your way. Its taken from the [Experimentum manual](https://debruine.github.io/experimentum/data.html) to retain only the first time any participant completes the study. Without it, you can encounter various problems in later steps if there are duplicate user IDs, so please make sure you run this chunk. 
+
+::: {.info data-latex=""}
+While you do not need to edit this code chunk, read over it and work out what it is doing. You will recognise all the data wrangling functions, so identify what each line is doing to the raw data files. 
+:::
+
+**Key data skills**: 
+
+- Chapter 4 - Data wrangling 1.
+
+- Chapter 5 - Data wrangling 2.
+
+- Chapter 6 - Data wrangling 3.
+
+### 3. Join together the data files by their common columns
+
+We provide the data as two separate files: one for demographics and one for the MSLQ questions. For further processing and analysis, you will want all of this information in one data frame. The code chunk is blank, so add in code to join the two data files by all their common columns. 
+
+**Key data skills**: 
+
+- Chapter 3 - Starting with data. 
+
+- Chapter 4 - Data wrangling 1.
+
+- Chapter 5 - Data wrangling 2.
+
+- Chapter 6 - Data wrangling 3.
+
+### 4. Use select to retain only the variables you need for your analysis 
+
+At the moment, you will have many variables for all the demographics and all the MSLQ questions. You will not need all of the variables, so it will make it easier to work with if you just retain the ones you need. For example, the user_id, any demographic variables to use or report, and the MSLQ items you need for your specific project. 
+
+**Key data skills**: 
+
+- Chapter 4 - Data wrangling 1.
+
+- Chapter 5 - Data wrangling 2.
+
+- Chapter 6 - Data wrangling 3.
+
+### 5. If necessary, use `filter()` to retain only the observations you need. 
+
+This is where you would think about your inclusion and/or exclusion criteria. Do you plan on only including participants with certain characteristics in your study? For example, you might need to remove participants above a certain age, or only use mature students etc. If you do not need to filter things then leave this section blank or delete it. 
+
+::: {.info data-latex=""}
+Its normally a good idea to report how many participants you start with, and how many you exclude, to leave your final sample size you work with. This is not relevant to the pre-registration, but you will need it for the final report and full data set. So, if you plan on excluding people at this stage, think about how you would record the sample size at each stage. 
+:::
+
+**Key data skills**: 
+
+- Chapter 4 - Data wrangling 1.
+
+- Chapter 5 - Data wrangling 2.
+
+- Chapter 6 - Data wrangling 3.
+
+### 6. Explore the data to check what "type" each variable is 
+
+At this point, you are getting close to applying the analysis steps for your data. Now, it would be a good time for some exploratory data analysis to understand what your data look like. For example, checking the variables to see whether they are a character, numeric, etc. Think about functions like `summary()`, `str()`, and `glimpse()` to check out each variable. Recode any necessary variables as factors and, if you would like to, change numeric codes (e.g., 1 for native speaker) into words to make it easier to read the output and make appropriate visualisations. You might also create some quick exploratory data analysis plots like histograms to check out the properties of your data. 
+
+**Key data skills**: 
+
+- Chapter 3 - Starting with data. 
+
+- Chapter 4 - Data wrangling 1.
+
+- Chapter 5 - Data wrangling 2.
+
+- Chapter 6 - Data wrangling 3.
+
+- Chapter 7 - Intro to data visualisation. 
+
+### 7. Calculate the mean score for each participant for each sub-scale. 
+
+There are two code chunks here and they provide a starting point for you to edit. One is intended for those working with different groups/a t-test, and the other is intended for those working with relationships/correlations. The code chunks take the MSLQ items and calculates a subscale score.
+
+There are a few ways you can do this but the Experimentum documentation provides example code to make this easier. For now, you have to adapt the code for the variables you need - changing only a few names to make it work for your data. You may also want to change the `na.rm = TRUE` for the calculation of means depending on whether you want to only include participants who completed all questions.
+
+::: {.warning data-latex=""}
+There are two code chunks here, but you only need **one**. You will be able to run the code, but if you try and knit the file, you might get an error for the code chunks after this section. This is because at the top of the code chunk you are using, you must change `eval = FALSE` to `eval = TRUE` once you have amended your code. The reason it is currently set to FALSE is to allow the file to knit without your edits. `eval = FALSE` says ignore the code chunk. `eval = TRUE` says run the code chunk. So, when it comes to the code chunks after this, it would not have run the code and the object would not exist. So, make sure you edit the code chunk you need for your analysis. 
+:::
+
+**Key data skills**: 
+
+- Chapter 3 - Starting with data. 
+
+- Chapter 4 - Data wrangling 1.
+
+- Chapter 5 - Data wrangling 2.
+
+- Chapter 6 - Data wrangling 3.
+
+### 8. Check assumptions
+
+You should now have the data set in the format that you need for analysis. Now you should check that the data meets the assumptions of the tests you want to conduct. This will be, depending on analysis, aspects such as normality, linearity, homoscedasticity, etc.
+
+::: {.info data-latex=""}
+Remember assumption checks are often a grey judgement call, there might not be a black and white decision. Many of the checks rely on visualisations and your interpretation, so it is about being able to rationalise and justify your decision to the reader. 
+:::
+
+**Key data skills**: 
+
+- Chapter 9 - Correlations.
+
+- Chapter 10 - t-tests.
+
+- Chapter 12 - Screening data.
+
+### 9. Data visualisation
+
+Next, you should visualise the data for each analysis with your reader in mind. For a t-test you might want to visualise the data through a violin-boxplot. For a correlation, you would be looking for a scatterplot. Refer back to semester 1 week 4 for data visualisation principles, then the relevant analysis chapters for formatting suitable plot types for your design. 
+
+**Key data skills**: 
+
+- Chapter 7 - Intro to data visualisation.
+
+- Chapter 9 - Correlations.
+
+- Chapter 10 - t-tests.
+
+### 10. Calculate descriptive statistics
+
+You may have already obtained some useful descriptive statistics from previous sections, but if not, or there are additional ones you want to include, calculate them here. This might include means, standard deviations, the sample size for various groups etc. If you already have the relevant information, then leave this blank.
+
+::: {.info data-latex=""}
+Remember to consider what descriptive statistics are appropriate for the data and assumptions you are working with. Would the mean and standard deviation be best, or the median and interquartile range? 
+:::
+
+**Key data skills**: 
+
+- Chapter 4 - Data wrangling 1.
+
+- Chapter 5 - Data wrangling 2.
+
+- Chapter 6 - Data wrangling 3.
+
+- Chapter 9 - Correlations.
+
+- Chapter 10 - t-tests.
+
+### 11. Statistical power
+
+You do not have control over the final sample size, but it is important to demonstrate you can calculate how many participants you would need to detect your Smallest Effect Size of Interest (SESOI) for an *a priori* power analysis. When you have the full data set, you can adapt the code to establish what effect size your final sample size was sensitive to detect for a *sensitivity* power analysis.
+
+**Key data skills**: 
+
+- Chapter 9 - Correlations.
+
+- Chapter 10 - t-tests.
+
+- Chapter 11 - Power and effect sizes. 
+
+### 12. Inferential statistics
+
+Finally, you can conduct your inferential statistical analysis. Remember the three key components of inferential statistics: null hypothesis significance testing, effect size, and a confidence interval. Think about what statistical test will address your research question and hypothesis, given the design. 
+
+**Key data skills**: 
+
+- Chapter 9 - Correlations.
+
+- Chapter 10 - t-tests.
+
+- Chapter 11 - Power and effect sizes. 
 
 ## Preregistration examples
 
