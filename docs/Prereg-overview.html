@@ -7,7 +7,7 @@
 <title>Chapter 4 Pre-registration guidance | MSc Research Methods 1 ODL Course Information</title>
 <meta name="author" content="James Bartlett, Phil McAleer, &amp; Helena Paterson">
 <meta name="description" content="4.1 Overview and submission details The two main submissions for this project are: The group pre-registration (1000 word limit, worth 30% of the course) The individual full report (3000 word...">
-<meta name="generator" content="bookdown 0.26 with bs4_book()">
+<meta name="generator" content="bookdown 0.36 with bs4_book()">
 <meta property="og:title" content="Chapter 4 Pre-registration guidance | MSc Research Methods 1 ODL Course Information">
 <meta property="og:type" content="book">
 <meta property="og:url" content="https://bartlettje.github.io/RM1_ODL_Resources/Prereg-overview.html">
@@ -19,7 +19,7 @@
 <meta name="twitter:image" content="https://bartlettje.github.io/RM1_ODL_Resources/images/logos/logo.png">
 <!-- JS --><script src="https://cdnjs.cloudflare.com/ajax/libs/clipboard.js/2.0.6/clipboard.min.js" integrity="sha256-inc5kl9MA1hkeYUt+EC3BhlIgyp/2jDIyBLS6k3UxPI=" crossorigin="anonymous"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/fuse.js/6.4.6/fuse.js" integrity="sha512-zv6Ywkjyktsohkbp9bb45V6tEMoWhzFzXis+LrMehmJZZSys19Yxf1dopHx7WzIKxr5tK2dVcYmaCk2uqdjF4A==" crossorigin="anonymous"></script><script src="https://kit.fontawesome.com/6ecbd6c532.js" crossorigin="anonymous"></script><script src="libs/jquery-3.6.0/jquery-3.6.0.min.js"></script><meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 <link href="libs/bootstrap-4.6.0/bootstrap.min.css" rel="stylesheet">
-<script src="libs/bootstrap-4.6.0/bootstrap.bundle.min.js"></script><script src="libs/bs3compat-0.4.1/transition.js"></script><script src="libs/bs3compat-0.4.1/tabs.js"></script><script src="libs/bs3compat-0.4.1/bs3compat.js"></script><link href="libs/bs4_book-1.0.0/bs4_book.css" rel="stylesheet">
+<script src="libs/bootstrap-4.6.0/bootstrap.bundle.min.js"></script><script src="libs/bs3compat-0.6.1/transition.js"></script><script src="libs/bs3compat-0.6.1/tabs.js"></script><script src="libs/bs3compat-0.6.1/bs3compat.js"></script><link href="libs/bs4_book-1.0.0/bs4_book.css" rel="stylesheet">
 <script src="libs/bs4_book-1.0.0/bs4_book.js"></script><script src="libs/kePrint-0.0.1/kePrint.js"></script><link href="libs/lightable-0.0.1/lightable.css" rel="stylesheet">
 <!-- Global site tag (gtag.js) - Google Analytics --><script async src="https://www.googletagmanager.com/gtag/js?id=G-6NP3MF25W3"></script><script>
       window.dataLayer = window.dataLayer || [];
@@ -86,6 +86,7 @@
 <li class="book-part">Research and Writing Skills</li>
 <li><a class="" href="Writing-02.html"><span class="header-section-number">5</span> Finding, Reading, and Organising Journal Articles</a></li>
 <li><a class="" href="intro-rationale.html"><span class="header-section-number">6</span> Structure of the Introduction and Rationale</a></li>
+<li><a class="" href="Results1.html"><span class="header-section-number">7</span> Pre-registering a Power Analysis</a></li>
 <li class="book-part">Appendices</li>
 <li><a class="" href="conventions.html"><span class="header-section-number">A</span> Conventions</a></li>
 <li><a class="" href="license.html">License</a></li>
@@ -111,7 +112,7 @@
 <li><p>The individual full report (3000 word limit, worth 50% of the course)</p></li>
 </ol>
 <p>These are two individual but connected assignments. You will collaboratively write the pre-registration in groups of 5 or 6 to plan your study. You will then individually write the full report, applying what you planned in the pre-registration.</p>
-<div class="inline-figure"><img src="images/prereg%20vs%20full%20report.png" title="Collaboratively write the pre-registration then individually write the full report" alt="Collaboratively write the pre-registration then individually write the full report" width="100%" style="display: block; margin: auto;"></div>
+<div class="inline-figure"><img src="images/prereg%20vs%20full%20report.png" alt="Collaboratively write the pre-registration then individually write the full report" width="100%" style="display: block; margin: auto;"></div>
 <p>In this chapter, we will focus on the pre-registration as the first major assignment of semester 2. The word limit includes all the text within your responses to the five questions at the start of the pre-registration template, including any in-text citations. However, it <strong>does not</strong> include the text of the questions in the template, your reference list, or your analysis code</p>
 <p>Please submit the completed .Rmd file, the two data files, and a copy of the knitted Word file. For further details and confirmation of the deadline, please see the <strong>pre-registration AIS</strong> on the Moodle course overview page.</p>
 <p>Your marker should be able to download all of the files and reproduce the knitted Word document without any errors. Before you change anything, knit the file to make sure there are no initial errors. Once you have a complete draft, we also recommend making sure another member of your group can knit the document to ensure it is reproducible across different computers.</p>
@@ -170,7 +171,7 @@
 <p>One common question is how the pre-registration and the data you are using will differ to your final report.</p>
 <p>In a typical study, you write the pre-registration before collecting data, or the very least before analysing the data. It is your plan for how you will design your study and analyse the data. It can be difficult to imagine and precisely describe the data analysis process without data, so it is normally a good idea to use fake data that is in the same format as your real data. This means you can demonstrate how you will analyse the data based on this fake data. It is <strong>not</strong> there to many any conclusions, you are just using it to demonstrate your plan.</p>
 <p>This is what we are trying to recreate in this assignment, but we share a small chunk of the real data for you to use. This means you can see how the data will look and demonstrate the code you will use to process and analyse the data.</p>
-<div class="inline-figure"><img src="images/prereg%20data.png" title="preregistration data extract vs the full data set" alt="preregistration data extract vs the full data set" width="100%" style="display: block; margin: auto;"></div>
+<div class="inline-figure"><img src="images/prereg%20data.png" alt="preregistration data extract vs the full data set" width="100%" style="display: block; margin: auto;"></div>
 <p>Once you get the final real data files, you will be able to replace the preregistration data files and use the same code. It is this point you start making conclusions and thinking whether you addressed your research question and your hypothesis or not.</p>
 <div class="dangerous">
 <p>You <strong>do not</strong> need to compare your final results to what you observed in the pre-registration as that was only to demonstrate your plan.</p>
@@ -723,7 +724,7 @@ $( document ).ready(function() {
 <footer class="bg-primary text-light mt-5"><div class="container"><div class="row">
 
   <div class="col-12 col-md-6 mt-3">
-    <p>"<strong>MSc Research Methods 1 ODL Course Information</strong>" was written by James Bartlett, Phil McAleer, &amp; Helena Paterson. It was last built on 2024-03-01.</p>
+    <p>"<strong>MSc Research Methods 1 ODL Course Information</strong>" was written by James Bartlett, Phil McAleer, &amp; Helena Paterson. It was last built on 2024-03-14.</p>
   </div>
 
   <div class="col-12 col-md-6 mt-3">
@@ -731,6 +732,34 @@ $( document ).ready(function() {
   </div>
 
 </div></div>
-</footer>
+</footer><!-- dynamically load mathjax for compatibility with self-contained --><script>
+  (function () {
+    var script = document.createElement("script");
+    script.type = "text/javascript";
+    var src = "true";
+    if (src === "" || src === "true") src = "https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.9/latest.js?config=TeX-MML-AM_CHTML";
+    if (location.protocol !== "file:")
+      if (/^https?:/.test(src))
+        src = src.replace(/^https?:/, '');
+    script.src = src;
+    document.getElementsByTagName("head")[0].appendChild(script);
+  })();
+</script><script type="text/x-mathjax-config">const popovers = document.querySelectorAll('a.footnote-ref[data-toggle="popover"]');
+for (let popover of popovers) {
+  const div = document.createElement('div');
+  div.setAttribute('style', 'position: absolute; top: 0, left:0; width:0, height:0, overflow: hidden; visibility: hidden;');
+  div.innerHTML = popover.getAttribute('data-content');
+
+  var has_math = div.querySelector("span.math");
+  if (has_math) {
+    document.body.appendChild(div);
+    MathJax.Hub.Queue(["Typeset", MathJax.Hub, div]);
+    MathJax.Hub.Queue(function() {
+      popover.setAttribute('data-content', div.innerHTML);
+      document.body.removeChild(div);
+    })
+  }
+}
+</script>
 </body>
 </html>
