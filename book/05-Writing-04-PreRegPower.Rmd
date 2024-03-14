@@ -1,4 +1,4 @@
-# Pre-registering a Power Analysis {#Results1}
+# Pre-registering a Power Analysis {#Pre-reg-power}
 
 ```{r C7 load packages, echo=FALSE, warning = FALSE, message=FALSE}
 library(pwr)

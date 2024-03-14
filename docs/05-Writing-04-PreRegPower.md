@@ -1,4 +1,4 @@
-# Pre-registering a Power Analysis {#Results1}
+# Pre-registering a Power Analysis {#Pre-reg-power}
 
 
 

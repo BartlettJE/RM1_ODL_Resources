@@ -95,7 +95,7 @@ independent-judgement-1-muir-et-al.-2020
 independent-judgement-2-harms-et-al.-2018
 independent-judgement-3-rode-and-ringel-2019
 how-does-this-apply-to-my-stage-one-group-report
-Results1
+Pre-reg-power
 report-power
 recommended-resources-to-revise-statistical-power
 statistical-power-recap
